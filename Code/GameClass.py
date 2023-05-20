@@ -16,7 +16,7 @@ class HangingGame:
 
     #randomly generating word using dictionfry file
     def word_generation(self):
-        path_to_file = "Q:/Code Prog/Projects/Hanging_game_2/venv/Code/Dictionary_RUS.txt"
+        path_to_file = "Q:\\Code Prog\\Projects\\Hanging_game_2\\venv\\Code\\Dictionary_RUS.txt"
         words = []
         with open (path_to_file, "r", encoding = "utf-8") as Dict:
             for line in Dict:
